@@ -26,7 +26,7 @@ function NavBar() {
         <>
           <nav className='navbar'>
             <Link to='/' className='navbar-logo'>
-                EPIC <i className='fab fa-firstdraft' />
+                Online Marketing
             </Link> 
             <div className='menu-icon' onClick={handleClick}>
               <i className={click ? 'fas fa-times' : 'fas fa-bars'} />    
